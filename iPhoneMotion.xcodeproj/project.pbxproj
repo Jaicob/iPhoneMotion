@@ -19,6 +19,8 @@
 		CA3575CB19ACDDAF00916F13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3575B319ACDDAE00916F13 /* UIKit.framework */; };
 		CA3575D319ACDDAF00916F13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA3575D119ACDDAF00916F13 /* InfoPlist.strings */; };
 		CA3575D519ACDDAF00916F13 /* iPhoneMotionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3575D419ACDDAF00916F13 /* iPhoneMotionTests.m */; };
+		CA3575E319ACDF2100916F13 /* JCSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3575E119ACDF2100916F13 /* JCSViewController.m */; };
+		CA3575E419ACDF2100916F13 /* JCSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA3575E219ACDF2100916F13 /* JCSViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		CA3575D019ACDDAF00916F13 /* iPhoneMotionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPhoneMotionTests-Info.plist"; sourceTree = "<group>"; };
 		CA3575D219ACDDAF00916F13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CA3575D419ACDDAF00916F13 /* iPhoneMotionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneMotionTests.m; sourceTree = "<group>"; };
+		CA3575E019ACDF2100916F13 /* JCSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCSViewController.h; sourceTree = "<group>"; };
+		CA3575E119ACDF2100916F13 /* JCSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCSViewController.m; sourceTree = "<group>"; };
+		CA3575E219ACDF2100916F13 /* JCSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JCSViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				CA3575BE19ACDDAE00916F13 /* JCSAppDelegate.h */,
 				CA3575BF19ACDDAE00916F13 /* JCSAppDelegate.m */,
+				CA3575E019ACDF2100916F13 /* JCSViewController.h */,
+				CA3575E119ACDF2100916F13 /* JCSViewController.m */,
+				CA3575E219ACDF2100916F13 /* JCSViewController.xib */,
 				CA3575C119ACDDAE00916F13 /* Images.xcassets */,
 				CA3575B619ACDDAE00916F13 /* Supporting Files */,
 			);
@@ -220,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA3575E419ACDF2100916F13 /* JCSViewController.xib in Resources */,
 				CA3575BA19ACDDAE00916F13 /* InfoPlist.strings in Resources */,
 				CA3575C219ACDDAE00916F13 /* Images.xcassets in Resources */,
 			);
@@ -241,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA3575BC19ACDDAE00916F13 /* main.m in Sources */,
+				CA3575E319ACDF2100916F13 /* JCSViewController.m in Sources */,
 				CA3575C019ACDDAE00916F13 /* JCSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
